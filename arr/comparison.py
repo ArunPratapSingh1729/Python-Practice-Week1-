@@ -1,6 +1,8 @@
 #Check if all elements are same
 # check if len are same 
 
+#list,tuple,set,dic can be euqal but not identify
+
 arr1 = [1,2,3,4,5]
 arr2 = [6,7,8,9,10]
 arr1 = [1,2,3]

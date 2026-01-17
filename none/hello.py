@@ -38,3 +38,8 @@ def func(x=None):
         print("No value passed")
 
 func()
+
+None + 1        ❌
+len(None)       ❌
+None > 5        ❌
+
