@@ -48,3 +48,50 @@ print(a)
 l = [str(i) + "scored" + str(j) for i in names for j in scores]
 l = [names[i] + " scored " + str(scores[i]) for i in range(len(names))  ]
 print(l)
+
+# From a dictionary, create a list of keys 
+# whose values are integers > 10.
+
+dic = {
+    "ame":10,
+    "class":15,
+    "address":90
+}
+
+l = [i for i in dic.keys() if dic[i] > 10]
+print(l)
+
+# From a dictionary, print the values whose keys starts with a 
+
+l = lambda x : dic[i] for i in dic.keys() if i.lower().startswith('a')
+
+print(l(dic))
+
+# From a dictionary, create a list of tuples (key, value) where value len is greater than 3
+
+dic = {
+    "ame":10,
+    "class":15,
+    "address":90
+}
+
+l = [(i,dic[i]) for i in dic.keys() if len(i) > 3]
+
+print(l)
+
+
+# Given a sentence, create a list of words with:
+
+# duplicates removed
+
+# length > 3
+
+# all lowercase
+
+sent = "This This is a sentence for example"
+w = sent.split()       
+
+l = [i.lower() for i in set(w) if i.count('e') >=1 and len(i) > 3 and i.islower()]
+
+print(l)
+

@@ -1,3 +1,7 @@
+# Lambda handles ONE element
+
+# Loop / iteration is done by map, filter, sorted, min, max
+
 #sq of a number 
 
 print((lambda x : x**2)(5))
@@ -58,3 +62,31 @@ print((lambda x,y: x if x> y  else y)(8,9))
 print((lambda x,y: x == y)(8,8))
 #False
 print((lambda x,y: x == y)(9,8))
+
+
+# Lambda to return max of two numbers
+
+# Lambda to return absolute value
+
+# Lambda to convert string to lowercase
+
+a = lambda x,y : max(x,y)
+print(a(9,4))
+
+a = lambda x : -x if x<0 else x
+print(a(-4))
+
+a = lambda x : x.lower() if x.isalpha() else "Invalid input"
+print(a("ARUN"))
+
+# Lambda to return second character of string
+# Lambda to return last digit of number
+# Lambda to return string without first character
+
+a = lambda x: x[1] 
+print(a("arun")) 
+a = lambda x: x%10
+print(a(123))
+a = lambda x : x[len(x):0 :-1]
+print(a("arun"))
+

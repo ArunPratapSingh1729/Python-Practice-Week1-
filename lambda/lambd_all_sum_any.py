@@ -93,3 +93,15 @@ and not any (i.isspace() for i in x)
 
 print(x("aruMN12"))
 
+# Find number whose square is maximum
+l = [1,2,3,4,5]
+a = lambda x : max(i**2 for i in x )
+print(a(l))
+
+# Find string with maximum vowels
+sen = ["this", "arub", "hello"]
+vowels = "aeiou"
+a = lambda x : max(j.count(i) in in vowels for j in x)
+print(a(sen))
+
+

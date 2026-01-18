@@ -37,3 +37,22 @@ print(x)
 x = list(map(lambda x : x.upper() , "arun"))
 print((x))
 
+# Convert list of numbers to strings
+
+# Find length of each word
+
+
+l = [1,2,3,4,5]
+a  = list(map(lambda x : str(x) , l))
+print(a)
+
+l = "this is to me "
+l = l.split()
+a=  list(map(lambda x : len(x), l))
+print(a)
+
+# From list of words, return word length if length > 3 else 0s = "This is for me the world"
+s = s.split()
+a = list(map(lambda x : x if len(x) > 3 else 0 , s))
+
+print(a)
