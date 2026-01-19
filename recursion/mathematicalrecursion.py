@@ -41,6 +41,6 @@ b = 9
 
 gcd = fun(a,b)
 
-lcm = (a*b)//gcd
+lcm = (a*b)//gcd    
 
 print(lcm)

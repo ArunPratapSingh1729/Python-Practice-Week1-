@@ -59,6 +59,7 @@ def fun(N):
    if N <= 0 :
        return 0 
     fun(N-1)
-    print(N) if N%2 == 0 else None
+    if N%2 == 0:
+        print(N)
 
 print(fun(10))

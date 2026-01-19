@@ -5,7 +5,7 @@ d3 = {**d1, **d2}
 print(d3)
 
 d1 = {"a":1,"b":"arun","c":3}
-a = d1
+a = d1  
 print(*a)
 print(*a.keys())    
 print(*a.items())
@@ -18,6 +18,11 @@ def fun(**d):
 
     
 fun(**d1)
+
+*a = {a:1, b:2,c:3,d:4}
+
+print(a)
+
 
 
 
