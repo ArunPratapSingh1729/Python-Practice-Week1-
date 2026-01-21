@@ -11,11 +11,11 @@ data = {
 
 #write
 with open('file.json', 'w') as f:
-     print(type(json.dump(data,f,indent =4)))
+     print(type(json.dumps(data,f,indent =4)))
 
 #read
 with open('file.json') as f:
-    a = json.load(f)
+    a = json.loads(f)
 
 print(a)
 print(type(a))

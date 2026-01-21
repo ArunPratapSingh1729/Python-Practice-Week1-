@@ -5,6 +5,7 @@
 name = "Arun Pratap Singh 123 "
 vowels = "aeiou"
 
+# [i for j in l for i in j] 
 l = [i for i in name if i.isalpha() and i.islower() and i not in vowels]
 
 print(l)
@@ -94,4 +95,5 @@ w = sent.split()
 l = [i.lower() for i in set(w) if i.count('e') >=1 and len(i) > 3 and i.islower()]
 
 print(l)
+
 
