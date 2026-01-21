@@ -15,7 +15,7 @@ class student():
 s1 = student('arun')
 s2 = student('pratap')
 
-print(s1.name)
+print(s1.name)  
 print(s1.school_name)
 print(s2.name)
 print(s2.school_name)

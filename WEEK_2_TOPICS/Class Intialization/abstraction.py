@@ -14,3 +14,16 @@ class new(car):
         print(f"The {self.name}'s price is {x} lakhs.")
 
 obj = new('Hero honda')
+
+
+from abc import ABC, abstractmethod
+class Shape(ABC):
+
+    def describe(self):
+        print("This is a shape")
+
+    @abstractmethod
+    def area(self):
+        pass
+    
+
